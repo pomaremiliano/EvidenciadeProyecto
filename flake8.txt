@@ -1,12 +1,10 @@
-pacman.py:12:80: E501 line too long (82 > 79 characters)
 pacman.py:14:1: E402 module level import not at top of file
 pacman.py:15:1: F403 'from turtle import *' used; unable to detect undefined names
 pacman.py:15:1: E402 module level import not at top of file
-pacman.py:17:1: E402 module level import not at top of file
-pacman.py:27:8: F405 'Turtle' may be undefined, or defined from star imports: turtle
-pacman.py:33:10: F405 'Turtle' may be undefined, or defined from star imports: turtle
-pacman.py:124:5: F405 'bgcolor' may be undefined, or defined from star imports: turtle
-pacman.py:142:80: E501 line too long (80 > 79 characters)
+pacman.py:16:1: E402 module level import not at top of file
+pacman.py:26:8: F405 'Turtle' may be undefined, or defined from star imports: turtle
+pacman.py:32:10: F405 'Turtle' may be undefined, or defined from star imports: turtle
+pacman.py:123:5: F405 'bgcolor' may be undefined, or defined from star imports: turtle
 pacman.py:146:5: F405 'clear' may be undefined, or defined from star imports: turtle
 pacman.py:160:5: F405 'up' may be undefined, or defined from star imports: turtle
 pacman.py:161:5: F405 'goto' may be undefined, or defined from star imports: turtle
@@ -16,14 +14,12 @@ pacman.py:181:9: F405 'goto' may be undefined, or defined from star imports: tur
 pacman.py:182:9: F405 'dot' may be undefined, or defined from star imports: turtle
 pacman.py:184:5: F405 'update' may be undefined, or defined from star imports: turtle
 pacman.py:190:5: F405 'ontimer' may be undefined, or defined from star imports: turtle
-pacman.py:193:1: E302 expected 2 blank lines, found 1
-pacman.py:199:1: E305 expected 2 blank lines after class or function definition, found 1
-pacman.py:200:1: F405 'setup' may be undefined, or defined from star imports: turtle
-pacman.py:203:1: F405 'hideturtle' may be undefined, or defined from star imports: turtle
-pacman.py:206:1: F405 'tracer' may be undefined, or defined from star imports: turtle
-pacman.py:212:1: F405 'listen' may be undefined, or defined from star imports: turtle
-pacman.py:214:1: F405 'onkey' may be undefined, or defined from star imports: turtle
-pacman.py:215:1: F405 'onkey' may be undefined, or defined from star imports: turtle
-pacman.py:216:1: F405 'onkey' may be undefined, or defined from star imports: turtle
-pacman.py:217:1: F405 'onkey' may be undefined, or defined from star imports: turtle
-pacman.py:220:1: F405 'done' may be undefined, or defined from star imports: turtle
+pacman.py:202:1: F405 'setup' may be undefined, or defined from star imports: turtle
+pacman.py:206:1: F405 'hideturtle' may be undefined, or defined from star imports: turtle
+pacman.py:210:1: F405 'tracer' may be undefined, or defined from star imports: turtle
+pacman.py:216:1: F405 'listen' may be undefined, or defined from star imports: turtle
+pacman.py:218:1: F405 'onkey' may be undefined, or defined from star imports: turtle
+pacman.py:219:1: F405 'onkey' may be undefined, or defined from star imports: turtle
+pacman.py:220:1: F405 'onkey' may be undefined, or defined from star imports: turtle
+pacman.py:221:1: F405 'onkey' may be undefined, or defined from star imports: turtle
+pacman.py:224:1: F405 'done' may be undefined, or defined from star imports: turtle
