@@ -1,5 +1,6 @@
-"""Juego Tic Tac Toe A01709338 Version 2
-En este commit se comenta el código y se agregan librerías.
+"""
+Juego Tic Tac Toe A01709338 Version 3
+En este commit se modifica el tamaño, color, y centrado de los símbolos X y O
 """
 
 "Se importan las librerías de turtle graphics y freegames "
@@ -11,29 +12,32 @@ from freegames import line
 "Dibujar la tabla de juego compuesta de 9 cuadros."
 def grid():
 
-    line(-67, 200, -67, -200)
-    line(67, 200, 67, -200)
-    line(-200, -67, 200, -67)
-    line(-200, 67, 200, 67)
+    line(-65, 200, -65, -200)
+    line(65, 200, 65, -200)
+    line(-200, -65, 200, -65)
+    line(-200, 65, 200, 65)
 
-"Dibujar el jugador de x"
+"Dibujar el jugador de x en color azul"
 def drawx(x, y):
-    
-    line(x, y, x + 133, y + 133)
-    line(x, y + 133, x + 133, y)
+    color("blue")
+    line(x, y, x + 130, y + 130)
+    color("blue") 
+    line(x, y + 130, x + 130, y)
+    color("blue")
 
 
 def drawo(x, y):
-    "Dibujar el jugador de O"
+    "Dibujar el jugador de O en color azul"
     up()
-    goto(x + 67, y + 5)
+    goto(x + 65, y + 25)
     down()
-    circle(62)
+    circle(40)
+    
 
 
 def floor(value):
     "Valor de círculo O en los cuadros con valor de 133"
-    return ((value + 200) // 133) * 133 - 200
+    return ((value + 200) // 135) * 135 - 200
 
 "Estatus de jugador al ejecutar y lista de jugadores X y O"
 state = {'player': 0}
@@ -51,8 +55,9 @@ def tap(x, y):
     update()
     state['player'] = not player
 
+
 "Dimensiones"
-setup(420, 420, 370, 0)
+setup(450, 450, 320, 50)
 "Turtle graphics"
 hideturtle()
 "Rastrear ejecución de turtle graphics"
