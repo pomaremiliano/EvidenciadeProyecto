@@ -1,0 +1,14 @@
+Para este proyecto comencé copiando y pegando el codigo para poder jugar 
+pacman con python, commiteamos esta primer parte que es el codigo sin modificar,
+para el segundo commit analicé y comenté el codigo para que sea entendible que 
+sucede en cada proceso, en el tercer commit comencé a modificar el juego como 
+se solicitó lo cual también fue más fácil ya que al tener el codigo comentado sabía
+donde modificar el código para modificar el mapa y hacerlo más complicado, 
+con el cuarto commit busque más modificaciones pero esta vez en la velocidad 
+que tienen los fantasmas al moverse para que el juego igual sea más complicado,
+en el quinto commit agregué lo que hacía falta en el codigo para estar validado
+por el estandar PEP-8 y para el sexto commit el codigo ya estaba corregido y demostrado
+con el archivo usando flake8 no teniendo los errores que tenía antes.
+Finalmente di un pull para tener todo lo del repositorio remoto en el local y poder 
+hacer un merge de mi rama en la que estuve trabajando para que todo quedara en el main
+junto con los commits de mi compañero de equipo. 
